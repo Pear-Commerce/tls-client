@@ -91,7 +91,7 @@ type RequestInput struct {
 type CustomTlsClient struct {
 	H2Settings                              map[string]uint32     `json:"h2Settings"`
 	HeaderPriority                          *PriorityParam        `json:"headerPriority"`
-	CertCompressionAlgos                    []string              `json:"certCompressionAlgos"`
+	CertCompressionAlgos                    []string              `json:"CertCompressionAlgo"`
 	Ja3String                               string                `json:"ja3String"`
 	H2SettingsOrder                         []string              `json:"h2SettingsOrder"`
 	KeyShareCurves                          []string              `json:"keyShareCurves"`
